@@ -8,12 +8,12 @@
 .banner{
     display: flex;
     justify-content: space-between;
-    padding: 50px 150px 0px 150px;
+    padding: 50px 50px 0px 150px;
 }
 .banner-title{
-    /* padding-top: 100px; */
     padding-bottom: 20px;
-    font-size: 65px;
+    font-size: 50px;
+    padding-top: 250px;
 }
 .banner-paragraph{
     font-size: 20px;
@@ -30,7 +30,7 @@
     padding: 10px;
 }
 /* -------Main part styles------- */
-main{
+.container{
     width: 1140px;
     margin: 0 auto;
     text-align: center;
@@ -46,13 +46,74 @@ main{
     display: flex;
     justify-content: space-between;
 }
-.feature-item{
-    background-color: #E55473;
+.feature-item1 {
+	background-color: #F2DEE7;
+	height: 471px;
+	width: 353px;
 }
+.feature-item1 img {
+	padding-top: 43px;
+}
+.feature-item2 {
+	background-color: #D9EFF1;
+	height: 471px;
+	width: 353px;
+}
+.feature-item3 {
+	background-color: #E3EBDB;
+	height: 471px;
+	width: 353px;
+}
+
 .feature-img-title-info{
     display: flex;
     justify-content: space-around;
     text-align: center;
     padding-top: 20px;
     
+}
+/* -------Hot deal part css------- */
+#hot-del{
+    background-color: #FEF6F8;
+}
+.hot-deal-info{
+    padding-top: 150px;
+}
+.hot-deal-paragraph{
+    padding: 20px 100px;
+}
+.hot-del-container{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    color: #E55473;
+}
+/* ------Instagram part css----- */
+#instagram{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.instagram-img img{
+    height: 300px;
+    width: 250px;
+}
+.instagram-img-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+/* -------Latest deal csss------- */
+#latest-deal{
+    padding-bottom: 70px;
+    background-image: url("../images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}
+.latest-deal-wrap{
+    
+    
+}
+#footer{
+    padding-top: 70px;
 }
