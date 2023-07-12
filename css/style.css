@@ -110,10 +110,22 @@ span{
     background-position: center;
     height: 700px;
 }
-.latest-deal-wrap{
-    
-    
-}
 #footer{
+    background-color: black;
     padding-top: 70px;
+    padding-bottom: 100px;
+}
+.footer-title{
+    color: #D9EFF1;
+    text-align: center;
+}
+.footer-description{
+    color: #D9EFF1;
+    text-align: center;
+}
+.copyright{
+    color: #D9EFF1;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 20px;
 }
