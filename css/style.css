@@ -28,6 +28,7 @@
     border: 0;
     background-color: #E55473;
     padding: 10px;
+    color: #fff;
 }
 /* -------Main part styles------- */
 .container{
@@ -92,7 +93,6 @@ span{
 /* ------Instagram part css----- */
 #instagram{
     padding-top: 70px;
-    padding-bottom: 70px;
 }
 .instagram-img img{
     height: 300px;
@@ -103,13 +103,38 @@ span{
     justify-content: space-between;
 }
 /* -------Latest deal csss------- */
-#latest-deal{
-    padding-bottom: 70px;
+#latest-deal {
+    padding-top: 210px;
     background-image: url("../images/Rectangle\ 9.png");
     background-repeat: no-repeat;
     background-position: center;
-    height: 700px;
+    height: 473px;
+    width: 1140px;
+    margin: 0 auto;
 }
+.latest-deal-from{
+    text-align: center;
+    padding-top: 27px;
+}
+input{
+    border: none;
+    box-shadow: #72707000;
+    height: 25px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.latest-deal-info{
+    text-align: center;
+}
+.latest-deal-title{
+    font-size: 32px;
+}
+/* ------------Footer Part Css----------- */
 #footer{
     background-color: black;
     padding-top: 70px;
